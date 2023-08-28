@@ -1,9 +1,10 @@
 // @flow 
 import { initialProfile } from '@/lib/initial-profile';
-import * as React from 'react';
 import { db } from '../../lib/db';
-import { redirect } from 'next/dist/server/api-utils';
+
 import { InitialModal } from '@/components/ui/modals/initial-model';
+import { redirect } from 'next/navigation';
+
 
 
 const SetupPage = async () => {
