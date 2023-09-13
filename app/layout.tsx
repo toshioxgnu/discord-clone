@@ -1,7 +1,7 @@
 import { ClerkProvider } from "@clerk/nextjs";
 import "./globals.css";
 import type { Metadata } from "next";
-import { Open_Sans } from "next/font/google";
+import  {Open_Sans}  from "next/font/google";
 import { ThemeProvider } from "@/components/ui/providers/theme-provider";
 import { cn } from "@/lib/utils";
 import { ModalProvider } from "@/components/ui/providers/modal-provider";
